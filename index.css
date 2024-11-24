@@ -1,0 +1,114 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url("Fonts/CursedTimerUlil.ttf");
+    font-family: CursedTimerUlil;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #003049;
+}
+
+h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin: 100px auto 10px;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-content: center; */
+    background: #ffd60a;
+    width: 575px;
+    height: 385px;
+    border-radius: 25px;
+}
+
+.btn-points-scored {
+    display: flex;
+    justify-content: space-between;
+}
+
+.period {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    margin-right: 0;
+    margin-left: 0;
+    padding-top: 100px;
+}
+
+.period-btn {
+    width: 50px;
+    height: 50px;
+    background: #003049;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    padding-top: 10px; 
+    border: none;
+    border-radius: 5px;
+    color: #f0ebd8;
+    font-family: CursedTimerUlil;
+    font-size: 28px;
+}
+
+
+.score-board {
+    width: 155px;
+    height: 120px;
+    background: #003049;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding-top: 10px; 
+    color: #c1121f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: CursedTimerUlil;
+    font-size: 90px;
+    font-weight: normal;
+}
+
+.points-scored {
+    width: 45px;
+    height: 45px;
+    background: none;
+    border: 3px solid #c1121f;
+    border-radius: 10px;
+    color: #003049;
+    font-family: CursedTimerUlil;
+    font-size: 24px;
+    font-weight: normal;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+#start-game {
+    background: #ffc300;
+    width: 575px;
+    height: 100px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 25px;
+}
+
+#new-game {
+    width: 450px;
+    height: 50px;
+    border: 3px solid #000814;
+    border-radius: 10px;
+    background: #003566;
+    color: #c1121f;
+    font-weight: bold;
+    font-size: 24px;
+}
